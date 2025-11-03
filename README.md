@@ -6,24 +6,29 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Lucas Silva Borges
+- Matricula: 903572
+- Proposta de projeto escolhida: Site de receitas
+- Breve descrição sobre seu projeto: Aplicação web simples que lista receitas culinárias, permite ver os detalhes de cada receita em outra página e possibilita **cadastrar, alterar (PUT) e excluir (DELETE)** receitas consumindo a API do **JSON Server**.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+**GET**
+![GET receitas](prints/get.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+**POST**
+![POST receitas](prints/post.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+**PUT**
+![PUT receitas](prints/put.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+**DELETE**
+![DELETE receitas](prints/delete.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+**Network (GET + POST)**
+![Network](prints/network.png)
 
 ## **Orientações Gerais**
 
@@ -73,3 +78,39 @@ Ao criar suas estruturas de dados no arquivo db.json, você poderá obter estes 
 * na pasta **`db`**, com o arquivo `db.json`.
 
 Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
+
+
+
+
+
+**Print da página inicial**
+![Página inicial](prints/home.png)
+
+**Print da página de detalhes**
+![Página de detalhes](prints/detalhes.png)
+
+**Estrutura de dados utilizada no arquivo `db/db.json`**
+
+```json
+{
+  "receitas": [
+    {
+      "id": 1,
+      "nome": "Lasanha à Bolonhesa",
+      "descricao": "Camadas de massa, carne moída e queijo.",
+      "tempoPreparo": "50 minutos"
+    },
+    {
+      "id": 2,
+      "nome": "Bolo de Cenoura",
+      "descricao": "Clássico bolo com cobertura.",
+      "tempoPreparo": "40 minutos"
+    },
+    {
+      "id": 3,
+      "nome": "Salada Tropical",
+      "descricao": "Bem leve e rápida.",
+      "tempoPreparo": "15 minutos"
+    }
+  ]
+}

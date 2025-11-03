@@ -1,18 +1,38 @@
 {
   "usuarios": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "id": "18fc7eb5-e097-4224-8bc7-b61c88c5e2b1",
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "id": "ec7c03b4-4867-458d-9e18-3fa4d73d7cde",
       "login": "user",
       "senha": "123",
-      "nome": "Usuario Comum",
+      "nome": "Usuário Comum",
       "email": "user@abc.com"
+    }
+  ],
+  "receitas": [
+    {
+      "id": 1,
+      "nome": "Lasanha à Bolonhesa",
+      "descricao": "Camadas de massa, carne moída e queijo.",
+      "tempoPreparo": "50 minutos"
+    },
+    {
+      "id": 2,
+      "nome": "Bolo de Cenoura",
+      "descricao": "Clássico bolo com cobertura.",
+      "tempoPreparo": "40 minutos"
+    },
+    {
+      "id": 3,
+      "nome": "Salada Tropical",
+      "descricao": "Bem leve e rápida.",
+      "tempoPreparo": "15 minutos"
     }
   ]
 }
